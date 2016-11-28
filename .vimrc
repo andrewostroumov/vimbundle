@@ -22,6 +22,7 @@ Plug 'thoughtbot/vim-rspec'
 Plug 'benmills/vimux'
 
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ervandew/supertab'
@@ -31,7 +32,12 @@ Plug 'nelstrom/vim-textobj-rubyblock'
 
 Plug 'w0ng/vim-hybrid'
 
+Plug 'joukevandermaas/vim-ember-hbs'
+Plug 'Shutnik/jshint2.vim'
+
 call plug#end()
+
+let jshint2_save = 1
 
 " Autoindent by file type
 filetype plugin indent on
